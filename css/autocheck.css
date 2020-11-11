@@ -1,0 +1,107 @@
+/* lesson3 Q2 */
+p {
+    color: red;
+    font-size: 20px;
+}
+/* lesson3 Q3 */
+* {
+    margin: 0;
+    padding: 0;
+}
+/* lesson3 Q4 */
+li {
+    list-style: none;
+    color: green;
+}
+/* lesson3 Q5 */
+.rule {
+    list-style: upper-roman;
+    color: navy;
+}
+/* lesson3 Q6 */
+.first-rule {
+    color: red;
+}
+.last-rule {
+    color: green;
+}
+/* lesson3 Q7 */
+.btn {
+    border: none;
+    padding: .25rem 1.25rem;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: navy;
+  }
+  /* Напиши свой код под этой строкой */
+  .btn.active {
+    color: red;
+  }
+  .link.active {
+    font-weight: 700;
+  }
+/* lesson3 Q8 */
+  .link:hover,
+  .link:focus {
+    opacity: 1;
+  }
+  /* lesson3 Q9 */
+  [type] {
+      color: white;
+  }
+  button[type="reset"] {
+      color: green;
+  }
+  /* lesson3 Q10 */
+  [href^="./"]  {
+      color: red;
+  }
+  [href^="https"] {
+      color: navy;
+  }
+  /* lesson3 Q11 */
+  [href$="html"] {
+    color: green;
+  }
+  [href$="css"] {
+    color: orangered;
+  }
+  /* lesson3 Q12 */
+  [href*="about"] {
+color: green;
+  }
+  [href*="com"] {
+    color: orangered;
+  }
+   /* lesson3 Q13 */
+   #sending {
+     background-color: teal;
+     color: white;
+   }
+    /* lesson3 Q15 */
+    div {
+      background-color: navy !important;
+      color: white !important;
+    }
+    .warning {
+      background-color: white;
+      color: red;
+    }
+    #inline {
+      background-color: red;
+      color: white;
+    }
+    /* lesson3 Q16 */
+    ul {
+      padding: 0;
+      list-style: none;
+    }
+    .menu>.menu-item {
+      display: inline-block;
+      vertical-align: top;
+    }
+    /* lesson3 Q17 */
+    
+     
