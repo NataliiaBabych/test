@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/autocheck.css">
+</head>
+<body>  
+
+    <div class="box">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia itaque quia
+      nobis fugit amet adipisci, corrupti animi, iusto eius a sed totam voluptas
+      porro. Dolorem aliquid rerum magnam eligendi aspernatur.
+    </div>
+
+    <svg width="400" height="250" style="outline: 1px solid black;">
+      <polyline
+        points="10,10 100,120 250,150 350,50"
+        fill="none"
+        stroke="black"
+        stroke-width="5"
+      />
+    </svg>
+
+    <div role="group">
+      <p>Выберите цвет футболки:</p>
+    
+      <label for="color-1">Красный</label>
+      <input id="color-1" name="color" type="radio" value="red" checked />
+    
+      <label for="color-2">Белый</label>
+      <input id="color-2" name="color" type="radio" value="white" />
+    
+      <label for="color-3">Зелёный</label>
+      <input id="color-3" name="color" type="radio" value="green" />
+    </div>
+
+
+    <div role="group">
+      <p>Чем вы увлекаетесь?:</p>
+
+    
+      <label for="hobby-1">Музыка</label>
+      <input id="hobby-1" name="hobby" type="checkbox" value="music" />
+    
+      <label for="hobby-2">Спорт</label>
+      <input id="hobby-2" name="hobby" type="checkbox" value="sports" />
+    
+      <label for="hobby-3">Чтение</label>
+      <input id="hobby-3" name="hobby" type="checkbox" value="reading" />
+    </div>
+
+    <label for="age">Возраст</label>
+<input id="age" type="range" name="age" min="0" max="120" value="30" />
+
+<textarea
+  name="comment"
+  rows="5"
+  cols="45"
+  placeholder="Оставьте комментарий"
+></textarea>
+
+<label for="size">Размер футболки</label>
+<select id="size" name="size">
+  <option value="xs">Extra Small</option>
+  <option value="s">Small</option>
+  <option value="m">Medium</option>
+  <option value="l">Large</option>
+</select>
+
+<label for="fav">Выберите свой любимый браузер:</label>
+<input list="browsers" name="fav" id="fav" />
+
+<datalist id="browsers">
+  <option>Edge</option>
+  <option>Firefox</option>
+  <option>Chrome</option>
+  <option>Opera</option>
+  <option>Safari</option>
+</datalist>
+
+<label for="branch">Отделение:</label>
+<input type="text" name="branch" id="branch" list="codes" />
+
+<datalist id="codes">
+  <option value="3600">Шевченковский район</option>
+  <option value="7493">Железоугорский район</option>
+  <option value="2701">Центральный район</option>
+  <option value="5692">Зелёногорский район</option>
+    <option value="3600">Шевченковский район</option>
+  <option value="7493">Железоугорский район</option>
+  <option value="2701">Центральный район</option>
+  <option value="5692">Зелёногорский район</option>
+</datalist> 
+</body>
+</html>
